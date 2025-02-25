@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>User Details</title>
+        <style>
+            h3 {
+                text-align: center;
+            }
+
+            form {
+                background-color: yellow;
+                width: 400px;
+                margin: 0% auto;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .fnm, .lnm, .mail, .phno, .add {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap:10px;
+                width: 250px;
+            }
+
+            input{
+                width: 150px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>Enter your Details</h3>
+        <form action="details" method="post">
+            <div class="fnm">
+                <label for="fn">First Name:</label>
+                <input type="text" required name="fname" id="fn">
+            </div> <br>
+            <div class="lnm">
+                <label for="ln">Last Name:</label>
+                <input type="text" required name="lname" id="ln">
+            </div> <br>
+            <div class="mail">
+                <label for="mail">Email:</label>
+                <input type="text" required name="mail" id="mail">
+            </div> <br>
+            <div class="phno">
+                <label for="ph">Mobile:</label>
+                <input type="text" required name="phone" id="ph">
+            </div> <br>
+            <div class="add">
+                <label for="uad">Address:</label>
+                <input type="text" required name="address" id="uad">
+            </div> <br>
+            <input type="submit" value="click">
+        </form>
+    </body>
+
+</html>
