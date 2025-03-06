@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Validation</title>
+</head>
+<style>
+	body{
+		text-align: center;
+	}
+</style>
+<body>
+	<h2>User Validation</h2>
+	<form action="verify" method="post">
+		<div class="un">
+			<label for="unm">Name</label>
+			<input type="text" id="unm" name="uname" placeholder="enter username" required>
+		</div>
+		<br>
+		<div class="pwd">
+			<label for="pass">Password</label>
+			<input type="password" id="pass" name="password" placeholder="enter password" required>
+		</div>
+		<br>
+		<input type="submit" name="details" value="Login">
+	</form>
+	
+</body>
+</html>
