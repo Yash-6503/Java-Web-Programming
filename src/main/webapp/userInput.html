@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Input</title>
+<style>
+	body{
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h2>User Input</h2>
+	<form action="uinfo" method="post">
+		<div class="id">
+			<label for="id">User Id: </label>
+			<input type="text" id="id" name="uid" required placeholder="enter id">
+		</div>
+		<br>
+		<div class="fname">
+			<label for="fn">User FName: </label>
+			<input type="text" id="fn" name="fname" required placeholder="enter fname">
+		</div>
+		<br>
+		<div class="lname">
+			<label for="ln">User LName: </label>
+			<input type="text" id="ln" name="lname" required placeholder="enter lname">
+		</div>
+		<br>
+		<div class="mail">
+			<label for="mid">User MailId: </label>
+			<input type="text" id="mid" name="mailid" required placeholder="enter mailid">
+		</div>
+		<br>
+		<div class="phn">
+			<label for="phno">User Phone: </label>
+			<input type="text" id="phno" name="phone" required placeholder="enter phone">
+		</div>
+		<br>
+		<input type="submit" name="display">
+	</form>
+</body>
+</html>
