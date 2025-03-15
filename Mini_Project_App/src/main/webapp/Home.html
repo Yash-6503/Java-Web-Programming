@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+<style>
+	.container{
+		margin: 10% auto;
+		width: 300px;
+		padding: 0px auto;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+		background-color: lightgray;
+		border-radius: 20px;
+		gap:10px;
+		cursor: pointer;
+	}
+	
+	.container:hover{
+		box-shadow: 0px 10px 10px grey;
+	}
+	
+	
+	a{
+		color:white;
+		text-decoration: none;
+	}
+	
+	.a1, .a2{
+		background-color: blue;
+		width: 200px;
+		padding: 10px 0px;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+	}
+	
+	.a1:hover, .a2:hover{
+		background-color: rgb(22, 65, 175);
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="a1">
+			<a href="AdminLogin.html">Admin Login</a>
+		</div>
+		<div class="a2">
+			<a href="StudentLogin.html">Student Login</a>
+		</div>
+	</div>
+</body>
+</html>

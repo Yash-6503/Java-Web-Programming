@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Student</title>
+<style>
+
+	.container{
+		width: 350px;
+		margin: 5% auto; 
+		display: flex;
+		flex-direction:column-reverse;
+		
+		justify-content: center;
+		align-items: center;
+		padding: 5px 0px;
+			
+	}
+	
+	#btn{
+		margin: 10px auto;
+		width:200px;
+		
+	}
+		
+	
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	
+</style>
+</head>
+<body>
+	<form method="post" action="addstudent" class="container">
+		<table>
+			<tr>
+				<th><label for="roll">RollNo</label></th>
+				<td><input type="text" required name="rollno" id="roll"></td>
+			</tr>
+			<tr>
+				<th><label for="nm">Name</label></th>
+				<td><input type="text" required name="name" id="nm"></td>
+			</tr>
+			<tr>
+				<th><label for="cs">Course</label></th>
+				<td><input type="text" required name="course" id="cs"></td>
+			</tr>
+			<tr>
+				<th><label for="cj">CoreJava</label></th>
+				<td><input type="text" required name="cjava" id="cj"></td>
+			</tr>
+			<tr>
+				<th><label for="aj">AdvJava</label></th>
+				<td><input type="text" required name="advjava" id="aj"></td>
+			</tr>
+			<tr>
+				<th><label for="u">UI</label></th>
+				<td><input type="text" required name="ui" id="u"></td>
+			</tr>
+			<tr>
+				<th><label for="dbms">Database</label></th>
+				<td><input type="text" required name="db" id="dbms"></td>
+			</tr>
+			<tr>
+				<th><label for="tl">Tools</label></th>
+				<td><input type="text" required name="tools" id="tl"></td>
+			</tr>
+			<tr>
+				
+				<div><input type="submit" value="Add Student" id="btn"></div>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

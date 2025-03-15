@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Login page</title>
+<style>
+	.container{
+		margin: 10% auto;
+		width: 300px;
+		padding: 0px auto;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+		border-radius: 20px;
+		background: linear-gradient(lightgrey, grey);		
+		cursor: pointer;
+	}
+	
+	.container:hover{
+		box-shadow: 0px 10px 20px darkgray;
+	}
+	
+	
+	a{
+		color:black;
+		text-decoration: none;
+	}
+	
+	.a1, .a2, .a3{
+		
+		padding: 10px 0px;
+		text-align: center;
+		font-weight: bold;
+	}
+		
+	.a3 input{
+		border-radius: 5px;
+		width: 220px;
+		padding: 6px 5px;
+		outline: none;
+		cursor: pointer;
+		
+	}
+	
+	.a1 input, .a2 input{
+		width: 200px;
+		padding: 5px 5px;
+		outline: none;
+	}
+	
+</style>
+</head>
+<body>
+	<form method="post" action="admin" class="container">
+		<div class="a1">
+			<label for="anm">Admin Name</label>
+			<input type="text" required name="uname" id="anm">
+		</div>
+		<div class="a2">
+			<label for="apwd">Admin Password</label>
+			<input type="password" required name="pass" id="apwd">
+		</div>
+		<div class="a3">
+			<input type="submit" value="Login">
+		</div>
+	</div>
+</body>
+</html>
